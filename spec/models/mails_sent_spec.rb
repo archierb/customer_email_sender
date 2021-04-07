@@ -8,7 +8,6 @@ RSpec.describe MailsSent, type: :model do
   end
 
   describe 'validations' do
-    it { should validate_presence_of(:email) }
     it { should validate_presence_of(:resource_id) }
   end
 end
